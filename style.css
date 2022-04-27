@@ -1,0 +1,68 @@
+body{
+    background-color:hsl(218, 28%, 13%);
+    color: white;
+    font-family: sans-serif;
+}
+#header{
+    height:100px;
+    float:right;
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+}
+section{
+    float:center;
+    background-image:"bg-curvy-desktop.svg";
+}
+input{
+    background-color:hsl(176, 68%, 64%);
+    border-radius:50px;
+    color: white;
+    width: 200px;
+    height: 30px;
+}
+textarea{
+    width:300px;
+    min-height:100px;
+    resize:none;
+    font-family:sans-serif;
+    color: white;
+    background-color: hsl(217, 28%, 15%);
+    border: 1px solid #ccc;
+    max-height:  150px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    padding: 7px 12px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+.logos{
+    width:120px
+}
+.icons{
+    width: 12px;
+}
+.mail{
+    width:180px;
+    min-height:20px;
+    resize:none;
+    font-family:sans-serif;
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height:  20px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    padding: 7px 12px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.get_started{
+    border: 1px solid #ccc;
+    background-color: hsl(217, 28%, 15%);
+    width: 400px;
+    height: 300px;
+}
